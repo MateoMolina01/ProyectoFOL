@@ -33,6 +33,6 @@ Los **Cargadores Solares MIJA** son estaciones de carga rápida para vehículos 
 
  ## 🤝 Contacto
  - **Mateo Molina:** mateomolina200126@gmail.com
- - **Iván Sobrino:**
+ - **Iván Sobrino:** sobrinocalzado2001ivan76@gmail.com
  - **Jesús Velasco:**
  - **Aarón Cabrero:**
