@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo MIJA - Carga Solar Móvil para Vehículos Eléctricos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E8F5E9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #27E8BB, #00796B);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        nav {
+            background: #00796B;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('background.jpg') center/cover no-repeat;
+            color: #FFC107; /* Cambié el color a un tono amarillo */
+            border-radius: 15px;
+            width: 80%;
+            margin: 40px auto;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            max-width: 600px;
+            margin: auto;
+            opacity: 0.9;
+        }
+        .section-container {
+            width: 85%;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .section {
+            width: 320px;
+            padding: 30px;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 20px rgba(0, 255, 127, 0.5);
+        }
+        .highlight {
+            color: #00796B;
+            font-weight: 600;
+        }
+        .divider {
+            height: 5px;
+            background: linear-gradient(90deg, #27E8BB, #00796B);
+            margin: 40px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        .plans-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .plan {
+            width: 280px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .plan h3 {
+            background: #00796B;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .plan ul {
+            list-style: none;
+            padding: 0;
+        }
+        .plan ul li {
+            padding: 5px 0;
+        }
+        .plan .price {
+            font-size: 24px;
+            color: #FF5722; /* Color para el precio */
+            font-weight: bold;
+        }
+        .contact-section {
+            background: #00796B;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            background: white;
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background: #00796B;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #1E1E1E;
+            text-align: center;
+            padding: 25px;
+            color: #74E8CD;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .centered-section {
+            width: 80%; /* Ajusta el ancho según sea necesario */
+            margin: 40px auto;
+            padding: 20px;
+            background: white; /* Fondo blanco para que parezca tarjeta */
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de tarjeta */
+            text-align: center; /* Centra el texto dentro de la tarjeta */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Carga Solar al Alcance de Todos
+    </header>
+    
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">¿Por qué?</a>
+        <a href="#">Planes</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Solución Ecológica para tu Vehículo Eléctrico</h1>
+        <p>Disfruta de la libertad de cargar en cualquier lugar con nuestra tecnología solar.</p>
+    </div>
+
+    <div class="section-container">
+        <div class="section">
+            <h2>¿Por qué esta idea?</h2>
+            <p>La infraestructura de carga aún es insuficiente. Nuestra solución permite cargar vehículos en zonas rurales o sin acceso a la red eléctrica.</p>
+        </div>
+        <div class="section">
+            <h2>Beneficios</h2>
+            <ul>
+                <li><span class="highlight">Energía 100% renovable ☀️</span></li>
+                <li>Movilidad y flexibilidad 🚗</li>
+                <li>Reducción de emisiones de carbono 🌱</li>
+                <li>Infraestructura adaptable 🏗️</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Oportunidades</h2>
+            <p>El sector de vehículos eléctricos abre oportunidades para soluciones innovadoras de carga.</p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="centered-section">
+        <h2>Cómo Funciona ⚙️</h2>
+        <p>Encuentra un kiosco, conecta tu vehículo y paga fácilmente con nuestra app. ¡Es rápido y sencillo! 📱</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="centered-section">
+        <h2>Planes</h2>
+        <div class="plans-container">
+            <div class="plan">
+                <h3>Básico</h3>
+                <div class="price">$10 por carga</div>
+                <ul>
+                    <li>Carga estándar 🚦</li>
+                    <li>Sin reservas ❌</li>
+                    <li>Pago por uso 💳</li>
+                </ul>
+            </div>
+            <div class="plan">
+                <h3>Premium</h3>
+                <div class="price">$20 por carga</div>
+                <ul>
+                    <li>Carga rápida ⚡</li>
+                    <li>Reserva prioritaria ⏳</li>
+                    <li>Bonos de descuento 🎟️</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <section class="contact-section">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button>Enviar 📬</button>
+        </div>
+    </section>
+
+    <footer>
+        Contacto: info@grupomija.com | Síguenos en redes sociales
+    </footer>
+</body>
+</html>
